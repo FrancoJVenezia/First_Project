@@ -16,12 +16,16 @@ body{
 }
 .header a{
     text-decoration: none;
-    color:#F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .header ul{
     display:flex;
     list-style: none;
     gap: 16px;
+}
+.header p{
+    margin-left: 100px;
 }
 /* Header */
 /* Main */
