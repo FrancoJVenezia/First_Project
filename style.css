@@ -29,6 +29,7 @@ body{
     margin-left: 100px;
 }
 /* Header */
+
 /* Main */
 .main{
     display:flex;
@@ -68,9 +69,13 @@ body{
     border:none;
     border-radius: 15px;
     font-weight: 600;
-    margin: 30px
+    margin: 30px;
+    border: 2px solid #3882F6;
 }
 
+.button:hover{
+    background-color: #1F2937;
+}
 /* Main */
 .h2{
     font-size: 36px;
@@ -136,3 +141,44 @@ i p{
     font-weight: 600;
 }
 /* cita */
+/* signUp */
+.signUp{
+    display:flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    margin:200px;
+    border-radius: 25px;
+    padding: 25px 150px;
+}
+.signUp .column{
+    display:flex;
+    text-align: start;
+    width: auto;
+    height: auto;
+    margin:-15px;
+    gap: 10px;
+}
+.column h3{
+    text-align: start;
+    align-self: flex-start;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+} 
+.column p{
+    color:#E5E7EB;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.signUp .button{
+    border: solid 2px #E5E7EB;
+}
+.signUp .button:hover{
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+/* signUp */
