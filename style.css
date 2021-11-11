@@ -108,6 +108,7 @@ body{
 }
 .contenedor p{
     text-align: center;
+    color: #1F2937;
 }
 .div{
     display:flex;
@@ -121,6 +122,7 @@ body{
     align-content: center;
 }
 /* Seccion */
+
 /* cita */
 .cita{
     background-color: #E5E7EB;
@@ -141,6 +143,7 @@ i p{
     font-weight: 600;
 }
 /* cita */
+
 /* signUp */
 .signUp{
     display:flex;
@@ -167,7 +170,7 @@ i p{
     margin: 0;
     padding: 0;
 } 
-.column p{
+.column .p{
     color:#E5E7EB;
     font-weight: 500;
     margin: 0;
@@ -182,3 +185,15 @@ i p{
 }
 
 /* signUp */
+
+/* Footer */
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 40px;
+}
+footer a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
